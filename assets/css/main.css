@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+.body {
+   font-family: futura-pt,Helvetica,Arial,sans-serif;     /**??*/
+}
 .menu {
     float:left;
     width:20%;
