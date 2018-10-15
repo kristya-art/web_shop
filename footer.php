@@ -1,3 +1,4 @@
 
-<div class="footer">
-    ©copyright  <?php echo date("y")?></div>
+<footer class="row">
+    ©copyright  <?php echo date("y")?></footer>
+
