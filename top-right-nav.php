@@ -28,10 +28,13 @@
 <script>
     function myFunction() {
         var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
+        var y = document.getElementById("icon-bar");
+        if ((x.className === "topnav")&&(y.className === "icon-bar")) {
             x.className += " responsive";
+            y.className += "responsive";
         } else {
-            x.className = "topnav";
+            ( x.className = "topnav")&&
+            (y.className = "icon-bar");
         }
     }
 </script>

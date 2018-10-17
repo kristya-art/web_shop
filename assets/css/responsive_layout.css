@@ -19,8 +19,11 @@
 
 /* 5-column design */
 .col-1 { width: 20%; }
+.col-1a { width: 30%;}
 .col-2 { width: 40%; }
+.col-2a { width: 50%; }
 .col-3 { width: 60%; }
+.col-3a { width: 70%; }
 .col-4 { width: 80%; }
 
 @media only screen and (max-width: 580px) {

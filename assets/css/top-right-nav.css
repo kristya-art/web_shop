@@ -78,10 +78,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child), .dropdown .dropbtn {
+    .topnav a:not(:first-child), .dropdown .dropbtn, .icon-bar a {
         display: none;
     }
-    .topnav a.icon {
+    .topnav a.icon, .icon-bar a.icon {
         float: right;
         display: block;
     }
@@ -89,7 +89,8 @@
 
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
+    .icon-bar.responsive {position: relative;}
+    .topnav.responsive .icon , .icon-bar.responsive .icon{
         position: absolute;
         right: 0;
         top: 0;
@@ -99,11 +100,51 @@
         display: block;
         text-align: left;
     }
+    .icon-bar.responsive a{
+        float: none;
+        display: block;
+        padding: 3px;
+    }
     .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
-    .topnav.responsive .dropdown .dropbtn {
+    .topnav.responsive .dropdown .dropbtn .icon-bar.responsive {
         display: block;
         width: 100%;
         text-align: left;
     }
+}
+/** icon_bar***************************************/
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: rgba(85, 85, 85, 0);
+    overflow: auto;
+    margin-left:100px;
+    margin-right:10px;
+    padding: 2px;
+
+
+}
+
+.icon-bar a {
+    float: right;
+    width: 10%;
+    text-align: center;
+    padding: 3px 0;
+    transition: all 0.3s ease;
+    color: rgba(255, 166, 193, 0.45);
+    font-size: 20px;
+    /*display: block;*/
+
+}
+
+
+.icon-bar a:hover {
+    /*background-color: #000;*/
+    color: deeppink;
+}
+
+.active {
+    background-color: rgba(76, 175, 80, 0.01);
 }
