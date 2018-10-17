@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b1010a-5dd2-4840-be07-e5d419801392" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/school_practice/action_page.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/school_practice/topic5.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
       <change beforePath="$PROJECT_DIR$/nav.php" afterPath="$PROJECT_DIR$/nav.php" />
-      <change beforePath="$PROJECT_DIR$/top-right-nav.php" afterPath="$PROJECT_DIR$/top-right-nav.php" />
     </list>
     <ignored path="C:/Program Files/Java/jdk-9.0.1/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +30,8 @@
             <state relative-caret-position="391">
               <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
-                <marker date="1539779502274" expanded="true" signature="455:541" ph="..." />
-                <marker date="1539779502274" expanded="true" signature="556:770" ph="..." />
+                <marker date="1539779939418" expanded="true" signature="472:558" ph="..." />
+                <marker date="1539779939418" expanded="true" signature="573:787" ph="..." />
               </folding>
             </state>
           </provider>
@@ -119,8 +114,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP on XAMPP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="686" />
-    <option name="width" value="680" />
+    <option name="x" value="496" />
+    <option name="width" value="870" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -318,10 +313,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32612000" />
+    <option name="totallyTimeSpent" value="32851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="686" y="0" width="680" height="728" extended-state="0" />
+    <frame x="496" y="0" width="870" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -338,7 +333,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33870968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.108641975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -496,8 +491,8 @@
         <state relative-caret-position="-155">
           <caret line="7" column="93" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="93" />
           <folding>
-            <marker date="1539779502274" expanded="true" signature="455:541" ph="..." />
-            <marker date="1539779502274" expanded="true" signature="556:770" ph="..." />
+            <marker date="1539779939418" expanded="true" signature="472:558" ph="..." />
+            <marker date="1539779939418" expanded="true" signature="573:787" ph="..." />
           </folding>
         </state>
       </provider>
@@ -741,8 +736,8 @@
         <state relative-caret-position="391">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <marker date="1539779502274" expanded="true" signature="455:541" ph="..." />
-            <marker date="1539779502274" expanded="true" signature="556:770" ph="..." />
+            <marker date="1539779939418" expanded="true" signature="472:558" ph="..." />
+            <marker date="1539779939418" expanded="true" signature="573:787" ph="..." />
           </folding>
         </state>
       </provider>
