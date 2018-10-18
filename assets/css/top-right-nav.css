@@ -107,7 +107,7 @@
     }
     .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
-    .topnav.responsive .dropdown .dropbtn .icon-bar.responsive {
+    .topnav.responsive .dropdown .dropbtn, .icon-bar.responsive {
         display: block;
         width: 100%;
         text-align: left;
