@@ -13,7 +13,9 @@
     <?php
     include("icon_bar.php");
     include("top-right-nav.php");
+    include ("language.php")
     ?>
+
 
 </head>
 <body>
