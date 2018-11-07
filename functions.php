@@ -8,7 +8,8 @@
 function get_param($name, $default) {
     if (isset($_GET[$name]))
         return urldecode($_GET[$name]);
-    else
+    else if ($name == 'lang' && isset($_COOKIE['lang']))
+        return $_COOKIE['lang'];
         return $default;
 }
 // Adds a GET parameter to the url. The url is passed by reference.
