@@ -21,7 +21,8 @@ $logos = Logo::getLogos();
    // include("top-right-nav.php");
    // include ("language.php")
    // ?>
-
+    <?php
+    include("logo.php")?>
 
 </head>
 <body>

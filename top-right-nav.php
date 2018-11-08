@@ -5,6 +5,7 @@ foreach ($menuitems as $key=>$value ){
     echo '<a href="' .$value.'php">'.$value.'</a>';
 }
 
+
 ?>
     <div class="dropdown">
         <button class="dropbtn">Dropdown
@@ -20,6 +21,8 @@ foreach ($menuitems as $key=>$value ){
 
 ?>
 </div>
+
+
 </div>
 
 <!--<div class="topnav" id="myTopnav">-->

@@ -56,6 +56,18 @@ header h1 {
     font-weight:bold;
     text-align: center;
 }
+
+/*header .logo {*/
+    /*font-size: 1em;*/
+    /*margin-top: 0.375em;*/
+    /*margin-right: auto;*/
+    /*margin-bottom: 0.375em;*/
+    /*margin-left: auto;*/
+    /*width: 3.9em;*/
+    /*left: 0;*/
+    /*display:block;*/
+    /*position: relative;*/
+/*}*/
 footer {
     font-size: 10pt;
     text-align: center;
@@ -99,9 +111,10 @@ section p {
 }
 /*logo*/
 
-.logo{
-   /* position: absolute;
-  /*  bottom: .2rem;*/
-    height: 2.1rem;
-    left: .9rem;
-}
+/*.logo{*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*float: left;*/
+    /*width: 100%;*/
+
+/*}*/
