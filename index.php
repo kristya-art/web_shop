@@ -1,3 +1,9 @@
+<?php
+require_once 'autoloader.php';
+
+$logos = Logo::getLogos();
+
+?>
 <!DOCTYPE html>
 <html lang="de-CH">
 <head>
@@ -10,15 +16,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Shop</title>
-    <?php
-    include("icon_bar.php");
-    include("top-right-nav.php");
-    include ("language.php")
-    ?>
+   // <?php
+   // include("icon_bar.php");
+   // include("top-right-nav.php");
+   // include ("language.php")
+   // ?>
 
 
 </head>
 <body>
+
 <?php
 include("header.php")
 ?>

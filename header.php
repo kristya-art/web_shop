@@ -1,25 +1,30 @@
-<header class="row"><h1>header part</h1>
+<?php
+require_once 'autoloader.php';
 
-<!--    <nav class="row col-3a">-->
-<!--        <style>-->
-<!--            ul{padding:0px;list-style:none;-->
-<!--                margin: 20px 20px 0px 0px;-->
-<!--            }-->
-<!--            ul li{margin:0px; padding:0px; display:inline;}-->
-<!--            ul li a {background: rgba(249, 251, 226, 0.4);margin:0px; padding:5px; text-decoration:none; margin-left:6px;}-->
-<!--            ul li a:hover{background: #e5e5e5;color:#fff}-->
+$logos = Logo::getLogos();
+
+?>
+
+<header class="row">
+    <?php foreach ($logos as $logo) :?>
+        <div class="logo" id="logo">
+            <img src="assets/images/<?php echo $logo->getImages()[1];?>"
+    </div>
+    <?php endforeach;?>
+    <?php
+    include("icon_bar.php");
+    include("top-right-nav.php");
+    include ("language.php")
+    ?>
+<!--    <div class="colunm col-6">-->
+<!--        <div id="lang">-->
+<!--            <ul>-->
+<!--                --><?php
+//                    languages($language, $pageId);
+//                ?>
+<!--            </ul>-->
 <!---->
-<!--        </style>-->
-<!--        --><?php
-//        $items=array("english", "german", "русслий", "french", "italian");
-//        echo '<ul>';
-//        foreach($items as $key=>$value){
-//            echo '<li><a href="'.$value.'.php">'.$value.'</a></li>';
-//        }
-//        echo '</ul>'
-//        ?>
-<!--<-->
+<!--        </div>-->
 <!---->
-<!---->
-<!--    </>-->
+<!--    </div>-->
 </header>

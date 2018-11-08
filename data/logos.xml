@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logos>
+    <logo>
+        <images>
+            <image>
+                <scr>cute-cow.jpg</scr>
+            </image>
+
+        <image>
+            <scr>smartcow.png</scr>
+        </image>
+        </images>
+    </logo>
+</logos>
