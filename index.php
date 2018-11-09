@@ -22,7 +22,7 @@ $logos = Logo::getLogos();
 <?php
 include "logo.php";
 include "top-right-nav.php"
-    ?>
+?>
 
 <?php
 include "header.php";

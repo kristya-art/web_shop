@@ -66,6 +66,17 @@ nav a {
     padding: 1.5mm;
     font-weight: bold;
 }
+/**new*/
+language {
+    background-color: white;
+
+}
+language a{
+    font-size: 9pt;
+    display: inherit;
+    padding: 1.5mm;
+    font-weight: bold;
+}
 aside {
     /*background-color: #EEE;*/
     border: 1px dashed #c0c0c0;

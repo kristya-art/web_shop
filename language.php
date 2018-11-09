@@ -1,5 +1,5 @@
 
-<language class="col-1" id="lingua">
+<language class="row col-3" id="lingua">
 
     <?php
     $items=array("ge", "en", "fr", "it", "ru");

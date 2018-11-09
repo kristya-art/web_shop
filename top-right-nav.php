@@ -1,3 +1,4 @@
+
 <div class="topnav"  id="myTopnav">
 <?php
 $menuitems = array("Home", "News", "Contact", "Dropdown");
