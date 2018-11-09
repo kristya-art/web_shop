@@ -55,12 +55,14 @@ foreach ($menuitems as $key=>$value ){
 <script>
     function myFunction() {
         var x = document.getElementById("myTopnav");
-        var y = document.getElementById("icon-bar");
-        if ((x.className === "topnav")&&(y.className === "icon-bar")) {
+        // var y = document.getElementById("icon-bar");
+        // if ((x.className === "topnav")&&(y.className === "icon-bar")) {
+        if(x.className == "topnav"){
             x.className += " responsive";
-            y.className += "responsive";
+            // y.className += "responsive";
         } else {
-            (( x.className = "topnav")&& (y.className = "icon-bar")); //when click again the both menu's come inside of icon
+            // (( x.className = "topnav")&& (y.className = "icon-bar")); //when click again the both menu's come inside of icon
+            (x.className="topnav");
         }
     }
 </script>
