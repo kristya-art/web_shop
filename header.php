@@ -1,9 +1,19 @@
 
 <header class="row">
-    <?php
-    include ("top-right-nav.php");
-    include ("language.php")
-    ?>
+
+<!--        --><?php
+//        include "logo.php";
+//        ?>
+<!--        --><?php
+//        include "language.php";
+//        ?>
+<!--        --><?php
+//        include "top-right-nav.php"
+//        ?>
+
+
+
+
 <!--    <div class="colunm col-6">-->
 <!--        <div id="lang">-->
 <!--            <ul>-->

@@ -1,8 +1,8 @@
 
-<language class="column col-3a">
+<language class="col-1" id="lingua">
 
     <?php
-    $items=array("en", "ge", "ру", "fr", "it");
+    $items=array("ge", "en", "fr", "it", "ru");
     echo '<ul>';
     foreach($items as $key=>$value){
         echo '<li><a href="'.$value.'.php">'.$value.'</a></li>';
