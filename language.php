@@ -9,5 +9,8 @@
     }
     echo '</ul>'
     ?>
+    <?php
+    include "shopping-cart.php";
+    ?>
 
 </language>

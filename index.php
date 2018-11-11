@@ -13,6 +13,7 @@ $logos = Logo::getLogos();
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/top-right-nav.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css"/>
 
+
     <title>Shop</title>
 
 
@@ -20,12 +21,12 @@ $logos = Logo::getLogos();
 </head>
 <body>
 <?php
-include "logo.php";
-include "top-right-nav.php"
+include "upArea.php";
 ?>
 
 <?php
 include "header.php";
+
 
 ?>
 <div class="row">

@@ -69,6 +69,7 @@ nav a {
 /**new*/
 language {
     background-color: white;
+    border: 1px dashed #c0c0c0;
 
 }
 language a{
@@ -76,6 +77,7 @@ language a{
     display: inherit;
     padding: 1.5mm;
     font-weight: bold;
+
 }
 aside {
     /*background-color: #EEE;*/
@@ -98,5 +100,16 @@ section h2 {
 }
 section p {
     font-size: 12pt;
+    margin: 3mm 0;
+}
+upArea {
+    background-color: white;
+    border: 1px dashed #c0c0c0;
+}
+upArea h2 {
+    font-size: 8pt;
+}
+upArea p {
+    font-size: 8pt;
     margin: 3mm 0;
 }
