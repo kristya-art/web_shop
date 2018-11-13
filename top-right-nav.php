@@ -1,12 +1,11 @@
 
 <div class="topnav"  id="myTopnav">
+
 <?php
 $menuitems = array("Home", "News", "Contact", "Dropdown");
 foreach ($menuitems as $key=>$value ){
     echo '<a href="' .$value.'php">'.$value.'</a>';
 }
-
-
 ?>
 
     <div class="dropdown">

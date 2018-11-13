@@ -21,6 +21,9 @@ $logos = Logo::getLogos();
 </head>
 <body>
 <?php
+include "page-header.php";
+include "toolbar.php"?>
+<?php
 include "upArea.php";
 ?>
 

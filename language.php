@@ -1,16 +1,16 @@
 
-<language class="row col-3" id="lingua">
 
-    <?php
-    $items=array("ge", "en", "fr", "it", "ru");
-    echo '<ul>';
-    foreach($items as $key=>$value){
-        echo '<li><a href="'.$value.'.php">'.$value.'</a></li>';
-    }
-    echo '</ul>'
-    ?>
-    <?php
-    include "shopping-cart.php";
-    ?>
+<div class="lingua" id="lingua">
+    <div class="dropdown">
+        <button class="dropbtn">de
+            <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
 
-</language>
+            <?php
+            $dropdownitems = array("en", "fr");
+            foreach ($dropdownitems as $key=>$value ){
+                echo '<a href="'.$value.'php">' .$value.'</a>';}
+            ?>
+        </div>
+    </div>
+</div>
