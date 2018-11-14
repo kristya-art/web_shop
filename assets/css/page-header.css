@@ -4,23 +4,6 @@
     padding-right: 15px;
     margin: 0 auto;
 }
-.page-header
-{
-    position:relative;
-    display: block;
-}
-.toolbar
-{
-    text-transform: uppercase;
-    font-size: 1em;
-    line-height: 36px;
-    padding:0.5em 0;
-}
-.toolbar-links
-{
-    float: left;
-}
-
 .search-form{
     display: inline-block;
     position:relative;
@@ -41,4 +24,25 @@ form {
     line-height: 38px;
     color: inherit;
     text-transform: none;
+}
+/*icon-bar*/
+.icon-bar {
+    padding: 1px 0;
+    width: 100%; /* Full-width */
+    background-color: #f9fbe2; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar li {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 0px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: brown; /* White text color */
+    font-size: 15px; /* Increased font size */
+}
+
+.icon-bar li:hover {
+    background-color:#F4FF93; /* Add a hover color */
 }

@@ -22,16 +22,12 @@ $logos = Logo::getLogos();
 <body>
 <?php
 include "page-header.php";
-include "toolbar.php"?>
+?>
 <?php
-include "upArea.php";
+include "top-right-nav.php";
 ?>
 
-<?php
-include "header.php";
 
-
-?>
 <div class="row">
     <?php
     include("nav.php")

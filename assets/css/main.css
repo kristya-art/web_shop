@@ -46,14 +46,6 @@
         float: none;
     }
 }
-
-/*#lingua{*/
-    /*float: right;*/
-    /*text-align: center;*/
-    /*!*margin-top: 27px;*!*/
-    /*margin-left: 15px;*/
-    /*color: #e5e5e5;*/
-/*}*/
 .dropdown {
     float: left;
     overflow: hidden;
@@ -92,6 +84,7 @@
     text-align: left;
     font-size:15px;
     font-weight: 700;
+    /*position: absolute;*/
 }
 
 .lingua a:hover, .dropdown:hover .dropbtn {
@@ -107,14 +100,14 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/*.search-container{*/
+.search-container{
 
-    /*float: right;*/
-    /*!*margin-top: 27px;*!*/
-    /*margin-left: 15px;*/
-    /*color: #e5e5e5;*/
+    float: right;
+    /*margin-top: 27px;*/
+    margin-left: 15px;
+    color: #e5e5e5;
 
-/*}*/
+}
 .search-container button {
     width: 17px;
     height: 17px;
@@ -122,7 +115,7 @@
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 0;
+    /*left: 0;*/
     padding: 6px 0;
     margin: -14px 0 0;
     border: none;
@@ -175,27 +168,3 @@
     position: relative;
 }
 
-/*icon-bar*/
-.icon-bar {
-    width: 100%; /* Full-width */
-    background-color: #f9fbe2; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
-}
-
-.icon-bar li {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 0px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 36px; /* Increased font size */
-}
-
-.icon-bar li:hover {
-    background-color:#F4FF93; /* Add a hover color */
-}
-
-.active {
-    background-color: #4CAF50; /* Add an active/current color */
-}
