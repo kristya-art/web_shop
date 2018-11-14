@@ -1,10 +1,10 @@
 
 
 <div class="lingua" id="lingua">
-    <div class="dropdown">
-        <button class="dropbtn">de
+    <div class="ladropdown">
+        <button class="ladropbtn">de
             <i class="fa fa-caret-down"></i></button>
-        <div class="dropdown-content">
+        <div class="ladropdown-content">
 
             <?php
             $dropdownitems = array("en", "fr");

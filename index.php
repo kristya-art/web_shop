@@ -10,7 +10,7 @@ $logos = Logo::getLogos();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive_layout.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/top-right-nav.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/nav-bar.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css"/>
 
 
@@ -21,10 +21,10 @@ $logos = Logo::getLogos();
 </head>
 <body>
 <?php
-include "page-header.php";
+include "header.php";
 ?>
 <?php
-include "top-right-nav.php";
+include "nav-bar.php";
 ?>
 
 
