@@ -4,7 +4,7 @@
 <?php
 $menuitems = array("Home", "News", "Contact", "Dropdown");
 foreach ($menuitems as $key=>$value ){
-    echo '<a href="' .$value.'php">'.$value.'</a>';
+    echo '<a href="' .strtolower($value).'.php">'.$value.'</a>';
 }
 ?>
 
@@ -16,7 +16,7 @@ foreach ($menuitems as $key=>$value ){
     <?php
     $dropdownitems = array("Link1", "Link2", "Link3", "Link4");
     foreach ($dropdownitems as $key=>$value ){
-    echo '<a href="'.$value.'php">' .$value.'</a>';}
+    echo '<a href="'.$value.'.php">' .$value.'</a>';}
     ?>
         </div>
     </div>

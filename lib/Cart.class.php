@@ -1,9 +1,10 @@
 
 <?php
 class Cart{
+    //empty list of items
     private $items = [];
     //holds the items: id=> num
-    public function addItem($item, $num ,$price) {
+    public function addItem($item, $num) {
         if(!isset($this->items[$item])) {
             $this->items[$item] = 0;
         }

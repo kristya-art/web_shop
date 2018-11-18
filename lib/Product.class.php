@@ -12,7 +12,7 @@ class Product {
       $this->data=$data;
    }
 
-   public static function getProducts()
+   public static function getProduct($item)
    {
        $xml = simplexml_load_file(self::DATA_FILE);
        $products = array();
