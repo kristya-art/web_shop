@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authentication required"
+AuthUserFile /path/to/.htpasswd
+Require valid-user

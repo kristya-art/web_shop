@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <item>
+            1
+        </item>
+        <price>
+            53
+        </price>
+    </product>
+    <product>
+        <item>
+            2
+        </item>
+        <price>
+            106
+        </price>
+    </product>
+    <product>
+        <item>
+            3
+        </item>
+        <price>
+            159
+        </price>
+    </product>
+</products>

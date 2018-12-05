@@ -10,12 +10,13 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#">Your Order</a>
+    <h5> <?php include "shopping-cart-main.php"?></h5>
 
     <div class="cart-summary-footer">
         <div class="cart-summary-subtotal border-top ">
             <a href="#">Subtotal: </a>
             <div class="amount">
-            <div class="money">$0.00</div>
+                <div class="money">$0.00</div>
         </div>
         </div>
     </div>
