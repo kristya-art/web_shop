@@ -4,6 +4,7 @@ function __autoload($class_name){
     // directories to looking for
     $dirs = [
         'lib/',
+        'model/',
     ];
 
     // for loading a class
