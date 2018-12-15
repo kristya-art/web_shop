@@ -1,5 +1,5 @@
 <?php
-include_once 'db-connection/db-connector.php';
+//include_once 'db-connection/db-connector.php';
 require_once 'autoloader.php';
 
 
@@ -28,18 +28,6 @@ include "header.php";
 <?php
 include "nav-bar.php";
 ?>
-<?php
-    $sql = "SELECT * FROM users;";
-    $result = mysqli_query($conn, $sql);
-    $resultCheck = mysqli_num_rows($result);
-
-    if($resultCheck>0){
-        while($row = mysqli_fetch_assoc($result))
-            echo $row['user_uid'] . "<br>";
-    }
-
-?>
-
 
 
 <div class="row">
