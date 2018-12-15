@@ -2,7 +2,7 @@
 <div class="topnav"  id="myTopnav">
 
 <?php
-$menuitems = array("Home", "News", "Contact", "Dropdown");
+$menuitems = array("Home", "Product", "Contact", "Dropdown");
 foreach ($menuitems as $key=>$value ){
     echo '<a href="' .strtolower($value).'.php">'.$value.'</a>';
 }

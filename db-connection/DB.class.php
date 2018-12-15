@@ -15,7 +15,7 @@ class DB extends mysqli{
     }
 
     static public function getInstance(){
-        if( !iself::$instance ){
+        if( !DB::$instance ){
             @self::$instance = new DB();
             if(self::$instance->connect_errno > 0){
                 die("Unable to connect to database[".

@@ -1,5 +1,5 @@
 <?php
-//include_once 'db-connection/db-connector.php';
+
 require_once 'autoloader.php';
 
 
@@ -27,6 +27,7 @@ include "header.php";
 ?>
 <?php
 include "nav-bar.php";
+
 ?>
 
 
