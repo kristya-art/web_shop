@@ -43,11 +43,11 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `name`, `price`, `description`, `typeID`, `image`, `quantity`) VALUES
-(1, 'Bomboloni ala crema', '20.00', 'Bomboloni sind Krapfen, gefüllt  einer Vanillecreme', 1, 'assets/images/productImg/bomboloni.jpg', 20),
-(2, 'Cannoli Siciliani', '20.00', 'Cannolo ist der Name eines gefüllten Gebäcks aus Sizilien. Es besteht aus einer frittierten Teigrolle mit einer süßen cremigen Füllung aus Ricotta, die Vanille, Kakao, Schokoladenstückchen oder kandierte Früchte enthalten kann.', 1, 'assets/images/productImg/cannoliSiciliani.png', 20),
-(3, 'Eclairs', '23.00', 'Französisch éclair - Liebesknochen, Hasenpfote oder Kaffeestange bezeichnet, ist ein etwa 10 cm langes, glasiertes und gefülltes Gebäck aus Brandmasse französischen Ursprungs. Die Füllung kann aus Erdbeer-, Himbeer-, Kaffee-, Schokoladen-, Vanillecreme, S', 1, 'assets/images/productImg/eclairs.jpg', 20),
-(4, 'Birds-Milk russian torte ', '30.00', 'Die Vogelmilch Torte ist ein russischer Klassiker. Diese Torte besteht aus leichtem, samtweichem Soufflé und einem ungewöhnlichem Biskuit', 2, 'assets/images/productImg/ptichie_moloko.jpg', 1),
-(5, 'Solothurner Torte', '30.00', 'Das Rezept der Solothurner Torte wurde vor gut 100 Jahren von Albert Studer erfunden. Damals hiess die Torte noch Solothurner Kuchen. 1928 liess Werner Suter von der Suteria beim Amt für geistiges Eigentum die Solothurner Torte schützen. Deshalb ist die T', 2, 'assets/images/productImg/solothurnerTorte.jpg', 30),
+(1, 'Bomboloni ala crema', '20.00', 'Bomboloni sind Krapfen, gefüllt  einer Vanillecreme.', 1, 'assets/images/productImg/bomboloni.jpg', 5),
+(2, 'Cannoli Siciliani', '20.00', 'Cannolo ist der Name eines gefüllten Gebäcks aus Sizilien. Es besteht aus einer frittierten Teigrolle mit einer süßen cremigen Füllung aus Ricotta, die Vanille, Kakao, Schokoladenstückchen oder kandierte Früchte enthalten kann.', 1, 'assets/images/productImg/cannoliSiciliani.png', 5),
+(3, 'Eclairs', '23.00', 'Französisch éclair - Liebesknochen, Hasenpfote oder Kaffeestange bezeichnet, ist ein etwa 10 cm langes, glasiertes und gefülltes Gebäck aus Brandmasse französischen Ursprungs. ', 1, 'assets/images/productImg/eclairs.jpg', 5),
+(4, 'Birds-Milk russian torte ', '30.00', 'Die Vogelmilch Torte ist ein russischer Klassiker. Diese Torte besteht aus leichtem, samtweichem Soufflé und einem ungewöhnlichem Biskuits.', 2, 'assets/images/productImg/ptichie_moloko.jpg', 1),
+(5, 'Solothurner Torte', '30.00', 'Das Rezept der Solothurner Torte wurde vor gut 100 Jahren von Albert Studer erfunden. Damals hiess die Torte noch Solothurner Kuchen. 1928 liess Werner Suter von der Suteria beim Amt für geistiges Eigentum die Solothurner Torte schützen.', 2, 'assets/images/productImg/solothurnerTorte.jpg', 1),
 (6, 'Schwarzwalder - kirsch Torte', '30.00', 'Schwarzwälder Kirschtorte ist einer der Klassiker unter den Torten. Marcel Seeger mag die Kombination von dunklem Biskuit, Sahne und Sauerkirschen.', 2, 'assets/images/productImg/schwarzwaelder-kirsch-torte.jpg', 1);
 COMMIT;
 

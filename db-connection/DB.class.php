@@ -14,6 +14,7 @@ class DB extends mysqli{
             self::HOST, self::USER, self::PW, self::DB_NAME);
     }
 
+
     static public function getInstance(){
         if( !DB::$instance ){
             @self::$instance = new DB();
